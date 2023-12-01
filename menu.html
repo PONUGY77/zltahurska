@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel= "stylesheet" href="sablona27.css">
+<title>menu</title>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"
+  integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+  crossorigin="anonymous"></script>
+  
+</head>
+<body>
+
+<nav>
+<div class="left">
+<img src="loer.png">
+</div>
+
+<div class="right">
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Gallery</a>
+<a href="#">Jobs</a>
+<a href="#">Contact</a>
+</div>
+
+<div class="burher_button"></div>
+<div class="btn not-active">
+  <span></span>
+  <span></span>
+  <span></span>
+</div>
+</nav>
+
+
+
+
+
+
+
+</body>
+</html>
+<script type="text/javascript">
+  $(".burher_button").click(function() {
+  $("nav").toggleClass("open");
+  $(this).toggleClass("burher_button_open");
+  });
+  </script>
